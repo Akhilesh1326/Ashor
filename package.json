@@ -1,0 +1,35 @@
+{
+  "name": "ashor",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Akhilesh1326/Ashor#readme",
+  "bugs": {
+    "url": "https://github.com/Akhilesh1326/Ashor/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akhilesh1326/Ashor.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "kafkajs": "^2.2.4",
+    "nodemon": "^3.1.14",
+    "uuid": "^14.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
